@@ -1,0 +1,16 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 400px; /* Set a maximum height for the gallery */
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds max height */
+    margin-top: 20px; /* Add some spacing above the gallery */
+    padding: 10px; /* Optional: add padding for better appearance */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.image-gallery img {
+    max-width: 150px; /* Adjust max width for smaller images */
+    border-radius: 8px; /* Optional: rounded corners for images */
+}

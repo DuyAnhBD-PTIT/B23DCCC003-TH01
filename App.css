@@ -1,0 +1,20 @@
+.container {
+    display: flex;               
+    justify-content: space-around; 
+    align-items: flex-start;     
+    padding: 20px;             
+    height: 100vh;
+    overflow: hidden;
+}
+
+.TodoApp, .RandomColor, .ImageFind {
+    border: 2px solid #ccc;    
+    border-radius: 5px;         
+    padding: 20px;             
+    margin: 0 10px;             
+    width: 45%;                
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow items to grow to fill space */
+    max-height: 90vh; /* Allow a maximum height for each component */
+    overflow-y: auto; /* Enable scrolling for components that exceed max-height */
+}

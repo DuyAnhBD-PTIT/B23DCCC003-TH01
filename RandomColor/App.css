@@ -1,0 +1,32 @@
+.color-sample {
+    width: 100px;
+    height: 100px; 
+    margin: 0 auto;
+    border: 1px solid #000; 
+}
+
+.color-title {
+    text-align: center; 
+    color: inherit;
+}
+
+.button {
+    margin: 10px; 
+}
+
+.color-history {
+    list-style: none; 
+    padding: 0; 
+}
+
+.color-item {
+    display: flex; 
+    align-items: center;
+}
+
+.color-history-sample {
+    width: 10px; 
+    height: 10px;
+    margin-right: 10px; 
+    border: 1px solid #000; 
+}
